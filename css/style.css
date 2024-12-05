@@ -1,0 +1,50 @@
+body {
+    background-color: #331f3a;
+}
+
+p {
+    color: #f8f1ff
+}
+
+h1 {
+    color: #f8f1ff;
+}
+
+h4 {
+    color: #f8f1ff;
+}
+
+.playable {
+    font-size: 30px;
+    color: #f8f1ff;
+    background-color: #646076;
+    text-align: center;
+    margin-left: 549px;
+    margin-right: 560px;
+    border: 2px solid;
+    border-color: #331f3a;
+}
+
+.characters {
+    color: #f8f1ff;
+    background-color: #331f3a;
+    float: left;
+    margin-left: 549px;
+    margin-right: 540px;
+}
+
+.character {
+    width: 129px;
+    height: 129px;
+    color: #f8f1ff;
+    background-color: #adadc4;
+    float: left;
+    padding: 2px;
+    border: 2px solid;
+    border-color: #331f3a;
+}
+
+h5 {
+    color: #9e9e9e;
+    float: left;
+}
