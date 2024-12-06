@@ -19,8 +19,9 @@ h4 {
     color: #f8f1ff;
     background-color: #646076;
     text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 36%;
+    margin-right: 36%;
+    padding: 3px;
     border: 2px solid;
     border-color: #331f3a;
 }
@@ -29,8 +30,8 @@ h4 {
     color: #f8f1ff;
     background-color: #331f3a;
     float: left;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 36%;
+    margin-right: 36%;
 }
 
 .character {
@@ -39,7 +40,7 @@ h4 {
     color: #f8f1ff;
     background-color: #adadc4;
     float: left;
-    padding: 2px;
+    padding: 3px;
     border: 2px solid;
     border-color: #331f3a;
 }
@@ -47,4 +48,14 @@ h4 {
 h5 {
     color: #9e9e9e;
     float: left;
+}
+
+footer {
+    background-color: #27152e;
+    position: fixed;
+}
+.icons {
+    float: right;
+    width: 10%;
+    height: 10%;
 }
