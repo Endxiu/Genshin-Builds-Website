@@ -19,8 +19,8 @@ h4 {
     color: #f8f1ff;
     background-color: #646076;
     text-align: center;
-    margin-left: 549px;
-    margin-right: 560px;
+    margin-left: 35%;
+    margin-right: 35%;
     border: 2px solid;
     border-color: #331f3a;
 }
@@ -29,13 +29,13 @@ h4 {
     color: #f8f1ff;
     background-color: #331f3a;
     float: left;
-    margin-left: 549px;
-    margin-right: 540px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .character {
-    width: 129px;
-    height: 129px;
+    width: 23%;
+    height: 23%;
     color: #f8f1ff;
     background-color: #adadc4;
     float: left;
