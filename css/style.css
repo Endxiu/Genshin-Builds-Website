@@ -19,8 +19,8 @@ h4 {
     color: #f8f1ff;
     background-color: #646076;
     text-align: center;
-    margin-left: 36%;
-    margin-right: 36%;
+    margin-left: 35%;
+    margin-right: 35%;
     padding: 3px;
     border: 2px solid;
     border-color: #331f3a;
@@ -30,13 +30,13 @@ h4 {
     color: #f8f1ff;
     background-color: #331f3a;
     float: left;
-    margin-left: 36%;
-    margin-right: 36%;
+    margin-left: 35%;
+    margin-right: 34%;
 }
 
 .character {
-    width: 23%;
-    height: 23%;
+    width: 30%;
+    height: 30%;
     color: #f8f1ff;
     background-color: #adadc4;
     float: left;
@@ -53,9 +53,11 @@ h5 {
 footer {
     background-color: #27152e;
     position: fixed;
+    margin-right: 65%;
 }
 .icons {
-    float: right;
     width: 10%;
     height: 10%;
+    padding: 4px;
+    position: relative;
 }
