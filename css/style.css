@@ -6,12 +6,38 @@ p {
     color: #f8f1ff
 }
 
-h1 {
+.start {
     color: #f8f1ff;
+
 }
 
-h4 {
+.button {
     color: #f8f1ff;
+    background-color: #646076;
+    font-size: 20px;
+    padding: 3px;
+    border: 2px solid;
+    border-color: #331f3a;
+    float: right;
+}
+
+.form {
+    background-color: #27152e;
+    color: #f8f1ff;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15%;
+    text-align: center;
+    padding: 3px;
+    border: 2px solid;
+    border-color: #331f3a;
+}
+
+input {
+    background-color: #646076;
+    padding: 3px;
+    border: 2px solid;
+    border-color: #331f3a;
 }
 
 .playable {
