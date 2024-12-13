@@ -73,14 +73,106 @@
         <a href="C:\xampp\htdocs\Genshin-Builds-Website\characters\Lynette.html" target="_self"><img src="C:\xampp\htdocs\Genshin-Builds-Website\img\character-icon\Lynette_Icon.jpg" class="character" alt="Lynette"></a>
     </div>
 
-    <section>
-        <div class="FAQ" id="FAQ" style="margin-top: 60%;">FAQ</div>
-        <div class="questions" style="margin-top: 64.4%;">Question 1</div>
-        <div class="questions" style="margin-top: 69.05%;">Question 2</div>
-        <div class="questions" style="margin-top: 73.7%;">Question 3</div>
-        <div class="questions" style="margin-top: 78.39%;">Question 4</div>
-        <div class="questions" style="margin-top: 83.1%;">Question 5</div>
-    </section>
+    <div class="FAQ" id="FAQ" style="margin-top: 65.5%;">FAQ</div>
+    <div class="faq_nav" style="margin-top: 70%;"> 
+        <a href="#home" class="faq_active">Question #1</a>
+        <div id="answers">
+            <p>Answer #1<p>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="faq_icon" onclick="myfaqFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
+    <div class="faq_nav"> 
+        <a href="#home" class="faq_active">Question #2</a>
+        <div id="answers2">
+            <p>Answer #2<p>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void();" class="faq_icon" onclick="myfaq2Function()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+
+    <div class="faq_nav"> 
+        <a href="#home" class="faq_active">Question #3</a>
+        <div id="answers3">
+            <p>Answer #3<p>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void();" class="faq_icon" onclick="myfaq3Function()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+
+    <div class="faq_nav"> 
+        <a href="#home" class="faq_active">Question #4</a>
+        <div id="answers4">
+            <p>Answer #4<p>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void();" class="faq_icon" onclick="myfaq4Function()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+    
+    <div class="faq_nav"> 
+        <a href="#home" class="faq_active">Question #5</a>
+        <div id="answers5">
+            <p>Answer #5<p>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void();" class="faq_icon" onclick="myfaq5Function()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+  <script>
+      function myfaqFunction() {
+        var y = document.getElementById("answers");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else {
+          y.style.display = "block";
+        }
+      }
+
+      function myfaq2Function() {
+        var y = document.getElementById("answers2");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else {
+          y.style.display = "block";
+        }
+      }
+
+      function myfaq3Function() {
+        var y = document.getElementById("answers3");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else {
+          y.style.display = "block";
+        }
+      }
+
+      function myfaq4Function() {
+        var y = document.getElementById("answers4");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else {
+          y.style.display = "block";
+        }
+      }
+
+      function myfaq5Function() {
+        var y = document.getElementById("answers5");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else {
+          y.style.display = "block";
+        }
+      }
+      </script>
 </body>
 </html>

@@ -91,7 +91,7 @@ footer {
     width: 100%;
     height: 8%;
     position: absolute;
-    margin-top: 100%;
+    margin-top: 120%;
 }
 
 .icons {
@@ -156,20 +156,20 @@ nav {
 
 .paragraph-left {
     float: right;
-    margin-top: 25%;
-    margin-right: 10%;
+    margin-top: 20%;
+    margin-right: 5%;
     background-color: #adadc4;
 }
 
 .paragraph-right {
     float: left;
-    margin-top: 25%;
-    margin-left: 10%;
+    margin-top: 20%;
+    margin-left: 5%;
     background-color: #adadc4;
 }
 
 .FAQ {
-    width:100%;
+    width:99.7%;
     height: 7%;
     background-color: #3d3b48;
     position:absolute;
@@ -179,6 +179,8 @@ nav {
     text-align: center;
     padding-top: 1%;
     font-size: 200%;
+    border: 3px solid;
+    border-color: #19191e;
 }
 
 .questions {
@@ -230,4 +232,75 @@ nav {
   .active {
     background-color: #6f5f80;
     color: white;
+  }
+
+  .faq_nav {
+    overflow: hidden;
+    background-color:#27272f;
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .faq_nav #answers {
+    display: none;
+  }
+
+  .faq_nav #answers2 {
+    display: none;
+  }
+
+  .faq_nav #answers3 {
+    display: none;
+  }
+
+  .faq_nav #answers4 {
+    display: none;
+  }
+
+  .faq_nav #answers5 {
+    display: none;
+  }
+
+  
+  /* Style navigation menu links */
+  .faq_nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+  }
+  
+  /* Style the hamburger menu */
+  .faq_nav a.faq_icon {
+    background: #27272f;
+    border: 3px solid;
+    border-color: #19191e;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .faq_nav a:hover {
+    background-color: #22222e;
+    color: #f8f1ff;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .faq_active {
+    width: 99.7%;
+    height: 7%;
+    border: 3px solid;
+    border-color: #19191e;
+    margin-bottom: 0%;
+    font-size: 64%;
+    color: #f8f1ff;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 200%;
   }
