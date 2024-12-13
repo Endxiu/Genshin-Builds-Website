@@ -185,14 +185,40 @@ nav {
     text-decoration: none;
 }
 
+
 .hide__content {
+    height: 7%;
+}
+
+.hide__content--active {
     max-height: 0;
     overflow: 0;
+    font-size: 0;
 }
 
-.hide--active .hide__content {
-    max-height: 100vh;
+.menu-icon {
+    width: 2.5%;
+    height: 55%;
+    padding: 4px;
+    position: relative;
+    margin-top: 0.20%;
+    margin-right: 2%;
+    float: right;
+    cursor: pointer;
 }
 
+.paragraph-left {
+    float: right;
+    margin-top: 25%;
+    margin-right: 10%;
+    background-color: #adadc4;
+}
+
+.paragraph-right {
+    float: left;
+    margin-top: 25%;
+    margin-left: 10%;
+    background-color: #adadc4;
+}
 
 

@@ -7,15 +7,30 @@
     <title>Chasca Build</title>
 </head>
 <body>
-    <div class="menu">
-        <img src="C:\xampp\htdocs\Genshin-Builds-Website\img\social-media-icon\hamburger_menu_Icon.jpg" class="icons" alt="menu">
-        <div class="containerv2 ">
-            <ul class="menu-item hide__content">
+    <div class="menu hide_content">
+        <input type="image" src="C:\xampp\htdocs\Genshin-Builds-Website\img\social-media-icon\hamburger_menu_Icon.jpg" class="menu-icon" alt="menu">
+    </div>
+        <div class="containerv2 hide__content hide__content--active">
+            <ul class="menu-item">
                 <li>
                     <a href="#FAQ" class="menu-link">FAQ</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <img src="C:\xampp\htdocs\Genshin-Builds-Website\img\character-icon\Ororon_img.jpg" style="float: left;">
+    <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\main.html" target="_self"><div class="button" style="float:right; margin-top: 5%; position: absolute;">Come back to the main website</div></a>
+    <div class="paragraph-left"><p>OroronOroronOroronOroronOroronOroronOroronOroronOroronOroronOroronOroron</p></div>
+    <img src="C:\xampp\htdocs\Genshin-Builds-Website\img\character-icon\Ororon_img.jpg" style="float: right;">
+    <div class="paragraph-right"><p>OroronOroronOroronOroronOroronOroronOroronOroronOroronOroronOroronOroron</p></div>
+    <script>
+        var hide_content = decument.querySelectorAll("hide_content");
+        hide__content.forEach((item) => 
+        {
+            item.addEventListener("click", function () {
+                this.classList.toggle("hide__content--active");
+            });
+        });
+    </script>
 </body>
 </html>
