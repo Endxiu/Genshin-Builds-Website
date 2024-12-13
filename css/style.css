@@ -1,14 +1,20 @@
 body {
     background-color: #331f3a;
+    margin: 0;
+
 }
 
 p {
-    color: #f8f1ff
+    color: #f8f1ff;
 }
 
 .start {
     color: #f8f1ff;
 
+}
+.informations {
+    font-size: 20px;
+    margin: 2%;
 }
 
 .button {
@@ -19,6 +25,9 @@ p {
     border: 2px solid;
     border-color: #331f3a;
     float: right;
+    position: relative;
+    margin-top: 0.5%;
+    margin-right: 1%;
 }
 
 .form {
@@ -45,6 +54,7 @@ input {
     color: #f8f1ff;
     background-color: #646076;
     text-align: center;
+    margin-top: 4%;
     margin-left: 35%;
     margin-right: 35.5%;
     padding: 3px;
@@ -78,12 +88,111 @@ h5 {
 
 footer {
     background-color: #27152e;
+    width: 100%;
+    height: 8%;
     position: fixed;
-    margin-right: 65%;
+    margin-top: 37%;
 }
+
 .icons {
-    width: 10%;
-    height: 10%;
+    width: 2.5%;
+    height: 55%;
     padding: 4px;
     position: relative;
+    margin-top: 0.20%;
+    margin-right: 2%;
+    float: right;
 }
+
+.collumns {
+    width: 50%;
+    color: #f8f1ff;
+    background-color: #646076;
+    border: 2px solid #331f3a;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1%;
+}
+
+.material-icons {
+    width: 20%;
+    height: 20%;
+    color: #f8f1ff;
+    float: left;
+    
+}
+
+nav {
+    font-size: 30px;
+    color: #f8f1ff;
+    background-color: #646076;
+    text-align: center;
+    margin-left: 27%;
+    margin-right:28.5%;
+    padding: 5px;
+    border: 2px solid;
+    border-color: #331f3a;
+    float: left;
+}
+
+.nav-list {
+    margin-left:30% ;
+    margin-right:20%;
+    float: left;
+    color: #f8f1ff;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 7%;
+    background-color: #3d3b48;
+    position: fixed;
+    margin-top: 0%;
+    margin-bottom: 100%;
+    font-size: 64%;
+    color: #f8f1ff;
+}
+
+.menu {
+    width: 100%;
+    height: 7%;
+    background-color: #3d3b48;
+    position: fixed;
+}
+.containerv2 {
+    width: 100%;
+    height: 100%;
+    background-color: #69696e;
+    position: absolute;
+    margin-top: 3%;
+    margin-bottom: 100%;
+    font-size: 64%;
+    color: #f8f1ff;
+}
+
+.menu-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.menu-link {
+    color: #f8f1ff;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+.hide__content {
+    max-height: 0;
+    overflow: 0;
+}
+
+.hide--active .hide__content {
+    max-height: 100vh;
+}
+
+
+
