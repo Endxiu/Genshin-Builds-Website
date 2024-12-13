@@ -91,7 +91,7 @@ footer {
     width: 100%;
     height: 8%;
     position: absolute;
-    margin-top: 40%;
+    margin-top: 100%;
 }
 
 .icons {
@@ -154,59 +154,6 @@ nav {
     color: #f8f1ff;
 }
 
-.menu {
-    width: 100%;
-    height: 6%;
-    background-color: #3d3b48;
-    position: fixed;
-}
-.containerv2 {
-    width: 100%;
-    height: 100%;
-    background-color: #69696e;
-    position: absolute;
-    margin-top: 3%;
-    margin-bottom: 100%;
-    font-size: 64%;
-    color: #f8f1ff;
-}
-
-.menu-item {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.menu-link {
-    color: #f8f1ff;
-    font-size: 200%;
-    text-decoration: none;
-}
-
-
-.hide__content {
-    height: 7%;
-}
-
-.hide__content--active {
-    max-height: 0;
-    overflow: 0;
-    font-size: 0;
-}
-
-.menu-icon {
-    width: 2.5%;
-    height: 55%;
-    padding: 4px;
-    position: relative;
-    margin-top: 0.20%;
-    margin-right: 2%;
-    float: right;
-    cursor: pointer;
-}
-
 .paragraph-left {
     float: right;
     margin-top: 25%;
@@ -222,11 +169,10 @@ nav {
 }
 
 .FAQ {
-    width: 100%;
+    width:100%;
     height: 7%;
     background-color: #3d3b48;
     position:absolute;
-    margin-top: 140%;
     margin-bottom: 0%;
     font-size: 64%;
     color: #f8f1ff;
@@ -242,7 +188,6 @@ nav {
     position:absolute;
     border: 3px solid;
     border-color: #27272f;
-    margin-top: 144.35%;
     margin-bottom: 0%;
     font-size: 64%;
     color: #f8f1ff;
@@ -250,3 +195,39 @@ nav {
     padding-top: 1%;
     font-size: 200%;
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: #494961;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: 	#eeeeee;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #6f5f80;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #3e2b3e;
+    color: #eeeeee;
+  }
+  
+  .active {
+    background-color: #6f5f80;
+    color: white;
+  }

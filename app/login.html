@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="C:\xampp\htdocs\Genshin-Builds-Website\css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Genshin-Builds-Website</title>
 </head>
 <body>
-    <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\main.html" target="_self"><div class="button" style="float: left;">Come back to the main website</div></a>
+    <div class="topnav">
+        <a href="#home" class="active">Genshin Impact Builds</a>
+        
+        <div id="myLinks">
+          <a href="#FAQ">FAQ</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\registration.html" target="_self" class="icon" style="margin-right: 3.23%;">Register</a>
+        <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\login.html" target="_self" class="icon" style="margin-right: 9.75%;">Log in</a>
+        <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\main.html" target="_self" class="icon" style="margin-right: 15.3%;">Come back to the main website</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars" style=""></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+      </script>
+
     <div class="form">
         <form>
             <label for="username_log">Username:</label><br>

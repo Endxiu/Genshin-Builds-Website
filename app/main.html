@@ -4,20 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="C:\xampp\htdocs\Genshin-Builds-Website\css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Genshin impact Builds</title>
 </head>
 <body>
-    <div class="container">
-        <h1 style="float: left;">Genshin impact Builds</h1>
-        <img src="C:\xampp\htdocs\Genshin-Builds-Website\img\social-media-icon\hamburger_menu_Icon.jpg" class="icons" alt="menu">
-        <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\registration.html" target="_self"><div class="button">Register</div></a>
-        <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\login.html" target="_self"><div class="button">Log in</div></a>
-    </div>
+    <div class="topnav">
+        <a href="#home" class="active">Genshin Impact Builds</a>
+        
+        <div id="myLinks">
+          <a href="#FAQ">FAQ</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\registration.html" target="_self" class="icon" style="margin-right: 3.23%;">Register</a>
+        <a href="C:\xampp\htdocs\Genshin-Builds-Website\app\login.html" target="_self" class="icon" style="margin-right: 9.75%;">Log in</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars" style=""></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+      </script>
 
     <div class="start">
         <p style="margin: 0; color: #331f3a;;">.</p>
         <h4 style="font-size: 150%;">Choose a character that you want to build</h4>
-        <footer style="background-color: #27152e;" >
+        <footer style="background-color: #27152e;" id="contact">
             <h4 style="float: left; margin-top: 1%;">Author: Adrian Stańczak</h4>
             <a href="https://www.instagram.com/" target="_self"><img src="C:\xampp\htdocs\Genshin-Builds-Website\img\social-media-icon\instagram_Icon.jpg" class="icons" alt="instagram"></a>
             <a href="https://www.messenger.com/" target="_self"><img src="C:\xampp\htdocs\Genshin-Builds-Website\img\social-media-icon\messenger_Icon.jpg" class="icons" alt="messenger"></a>
@@ -53,5 +72,15 @@
         <a href="C:\xampp\htdocs\Genshin-Builds-Website\characters\Furina.html" target="_self"><img src="C:\xampp\htdocs\Genshin-Builds-Website\img\character-icon\Furina_Icon.jpg" class="character" alt="Furina"></a>
         <a href="C:\xampp\htdocs\Genshin-Builds-Website\characters\Lynette.html" target="_self"><img src="C:\xampp\htdocs\Genshin-Builds-Website\img\character-icon\Lynette_Icon.jpg" class="character" alt="Lynette"></a>
     </div>
+
+    <section>
+        <div class="FAQ" id="FAQ" style="margin-top: 60%;">FAQ</div>
+        <div class="questions" style="margin-top: 64.4%;">Question 1</div>
+        <div class="questions" style="margin-top: 69.05%;">Question 2</div>
+        <div class="questions" style="margin-top: 73.7%;">Question 3</div>
+        <div class="questions" style="margin-top: 78.39%;">Question 4</div>
+        <div class="questions" style="margin-top: 83.1%;">Question 5</div>
+    </section>
+
 </body>
 </html>
